@@ -1,4 +1,4 @@
-export const galleryItems = [
+export const galleryFoto = [
   {
     preview: './images/oops-chef.jpg',
     name: 'Dmitro Kushnaruk',
