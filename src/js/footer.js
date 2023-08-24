@@ -1,4 +1,4 @@
-import { galleryFoto } from './gallery-foto';
+import { galleryFoto } from './gallery-foto.js';
 
 const openModar = document.querySelector('.icon-hear');
 const closeModar = document.querySelector('.footer-modal-close');
