@@ -1,4 +1,4 @@
-import { galleryItems } from './gallery-items';
+import { galleryFoto } from './gallery-foto';
 
 const openModar = document.querySelector('.icon-hear');
 const closeModar = document.querySelector('.footer-modal-close');
@@ -17,7 +17,7 @@ openModar.addEventListener('click', function(e) {
     // console.log(images)
 
 })
-const itemsMarkup = makeGalleryItems(galleryItems);
+const itemsMarkup = makeGalleryItems(galleryFoto);
 
 function makeGalleryItems(items) {
     return items.map(({ preview, name, position }) => {
